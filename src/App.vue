@@ -18,17 +18,11 @@
 <script>
 export default {
   name: 'App',
-//  methods:{
-//      quit(){
-//          localStorage.login="";
-//          this.$router.push({"path":"/login"})
-//      }
-//  },
     methods:{
-    	quit(){
-    		localStorage.login="",
-    		this.$router.push({"path":"/login"})
-    	}
+        quit(){
+            localStorage.login="";
+            this.$router.push({"path":"/login"})
+        }
     },
     // mounted(){
     //   fetch("/api/abc").then(function () {
@@ -47,7 +41,7 @@ export default {
 .container header{
   width: 100%;
   height: 100%;
-  line-height: 2px;
+  line-height: 44px;
 }
   .container header .title{
     float: left;
@@ -78,5 +72,9 @@ export default {
 }
 .v-leave-to{
   opacity: 0;
+}
+span:hover{
+	color:red;
+	cursor: pointer;
 }
 </style>

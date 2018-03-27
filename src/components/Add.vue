@@ -74,4 +74,10 @@
         font-size: 20px;
         margin: 0 auto;
     }
+    .btn-default{
+    	cursor: pointer;
+    }
+    .btn-default:hover{
+    	corlor:red
+    }
 </style>

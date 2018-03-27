@@ -7,7 +7,7 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">密码</label>
+                <label for="exampleInputPassword1">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
             <button type="submit" class="btn btn-default" @click="onsubmit">登录</button>
@@ -32,6 +32,7 @@
                this.$router.push({"path":"/reg"});
             }
         }
+   
     }
 </script>
 
